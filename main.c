@@ -9,6 +9,6 @@ int main(int argc, char *argv[]) {
 	
     strcpy(dst, src);
     
-    printf("문자열/%s/의 길이 :%d", dst, strlen(dst));
+    printf("문자열\"%s\"의 길이 :%d", dst, strlen(dst));
 	return 0;
 }
