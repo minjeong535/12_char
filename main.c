@@ -8,6 +8,7 @@ int main(int argc, char *argv[]) {
 	char dst[100];
 	
     strcpy(dst, src);
-    printf("copied string: %s", dst);
+    
+    printf("문자열/%s/의 길이 :%d", dst, strlen(dst));
 	return 0;
 }
